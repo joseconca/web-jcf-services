@@ -1,6 +1,15 @@
 # web-jcf-services
 
-Web estática de presentación de JC Services. Todo el sitio está en `index.html`, incluidas las imágenes optimizadas de la tarjeta y los estilos. No necesita dependencias, servidor, JavaScript, fuentes externas ni compilación.
+Web estática de presentación de JC Services. La web utiliza HTML y CSS separados, con las imágenes WebP originales de la tarjeta optimizadas en `assets/`. No necesita dependencias, servidor, JavaScript, fuentes externas ni compilación.
+
+## Estructura v2.0
+
+- `index.html`: contenido y navegación.
+- `css/styles.css`: estilos responsive y accesibilidad.
+- `assets/`: logotipo, fotografía original y favicon.
+- `.nojekyll`: publicación estática directa.
+
+Las páginas legales, la zona de cobertura, el sitemap definitivo y las fotografías de trabajos quedan pendientes de datos reales y del dominio final.
 
 ## Vista previa
 
@@ -9,7 +18,7 @@ Abre `index.html` en cualquier navegador. Los enlaces de teléfono y correo requ
 ## Publicación de una maqueta en GitHub Pages
 
 1. Crea un repositorio llamado `web-jcf-services`. Si usas GitHub Free y quieres usar Pages, necesitarás un repositorio público.
-2. Sube `index.html`, `.nojekyll` y `README.md` a la raíz de la rama `main`.
+2. Sube todos los archivos y carpetas del repositorio a la raíz de la rama `main`.
 3. En Settings → Pages, selecciona Deploy from a branch, rama `main`, carpeta `/(root)`, y guarda.
 4. Una vez publicado, la URL prevista es `https://joseconca.github.io/web-jcf-services/`.
 
