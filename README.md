@@ -4,7 +4,7 @@ Web estática de presentación de JC Services. Todo el sitio está en `index.htm
 
 ## Vista previa
 
-Abre `index.html` en cualquier navegador. Los enlaces de teléfono y correo requieren aplicaciones compatibles en el dispositivo.
+Abre `index.html` en cualquier navegador. Los enlaces de teléfono y correo requieren aplicaciones compatibles en el dispositivo. WhatsApp abre una conversación con el número +34 640 66 19 49 y un mensaje de consulta predefinido, mediante un enlace wa.me (sin widgets ni scripts externos).
 
 ## Publicación de una maqueta en GitHub Pages
 
